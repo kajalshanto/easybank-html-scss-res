@@ -1,0 +1,1 @@
+# easybank-html-scss-res
