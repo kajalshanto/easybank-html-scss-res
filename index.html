@@ -25,13 +25,14 @@
 <body>
     <!-- Header start -->
     <header class="header">
-        <div class="wrapper">
-            <nav class="flex flex-jc-sb flex-ai-c">
+        <div class="header_section">
+            <div class="overlay hide_in_desktop has-fade"></div>
+            <nav class="flex flex-jc-sb flex-ai-c wrapper">
                 <a href="/" class="header__logo">
                     <img src="./images/logo.svg" alt="Easybank">
                 </a>
 
-                <a href="#" class="header__hamburger hide_in_desktop">
+                <a id="hamuburger" href="#" class="header__hamburger hide_in_desktop">
                     <span></span>
                     <span></span>
                     <span></span>
@@ -47,17 +48,100 @@
 
                 <a href="#" class="btn_custom header__btn hide_in_mobile">Request Invite</a>
             </nav>
+
+            <div class="wrapper">
+                <div class="header__mobile__menu tac hide_in_desktop has-fade">
+                    <ul>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#">Careers</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
         </div>
     </header>
-    <!--/. Header start -->
+    <!--/. Header ends -->
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="wrapper">
+                <div class="hero__image">
+
+                </div>
+
+                <div class="hero__text">
+                    <h1>Next generation digital banking</h1>
+                    <p>Take your financial life online. Your Easybank account will be a one-stop-shop
+                        for spending, saving, budgeting, investing, and much more.</p>
+                    <a href="#" class="btn_custom header__btn">Request Invite</a>
+                </div>
+            </div>
+        </section>
+        <!--/. Hero Section -->
+
+        <!-- <section class="content">
+            <div class="wrapper">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas aliquam consequuntur doloribus, sit
+                    ratione aut ipsa nulla sequi praesentium sint architecto ut a. Aut laboriosam facere tempore velit
+                    suscipit necessitatibus dolorem debitis nesciunt possimus illo, provident nostrum aliquid soluta
+                    quae et earum magnam laudantium doloribus excepturi animi incidunt dolor consequatur dolorum?
+                    Laboriosam, veritatis ex aperiam earum numquam id suscipit unde reprehenderit sequi, voluptate, quia
+                    maiores facilis qui fugit vel cupiditate enim natus perferendis accusantium. Quidem quod fugiat
+                    voluptatem labore itaque tempora quam sit eveniet nihil, cupiditate asperiores ducimus obcaecati.
+                    Saepe et earum eum reprehenderit corporis enim autem architecto velit obcaecati!</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, fugiat sequi laboriosam ipsum
+                    perferendis nostrum, magnam blanditiis ipsam vero quia soluta minima, corporis et nam nihil harum
+                    tempore dolor atque illum facere praesentium a deserunt alias! Deleniti magnam obcaecati praesentium
+                    quos necessitatibus, atque explicabo accusantium odit at sed, iste distinctio laudantium iure
+                    mollitia nostrum ipsum. Provident dolor animi minus iste incidunt quam, illo placeat cum? Totam
+                    dolorum natus corporis laborum eveniet autem quasi, aut voluptatem cupiditate eaque praesentium rem
+                    recusandae ipsam aperiam! Illo dolorum illum et saepe at dolorem atque quas nam voluptates unde,
+                    tenetur eum, a adipisci voluptatibus numquam inventore obcaecati placeat aperiam quo? Omnis eaque
+                    dolore doloremque est eligendi porro? Dolorum corrupti laudantium earum eos amet quibusdam quia,
+                    eaque sit dolores nobis placeat aperiam voluptates? Rerum placeat voluptates assumenda fugiat
+                    possimus quibusdam impedit, perferendis molestias iusto non autem ipsam veritatis pariatur omnis
+                    eius saepe exercitationem corporis est laboriosam?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt tenetur facilis, debitis omnis
+                    nostrum ab quis numquam reiciendis alias sed adipisci autem rem, necessitatibus suscipit! Non
+                    deleniti quos accusantium modi sint enim facilis quas itaque mollitia quidem, dolor molestiae,
+                    dolorum, possimus minus est voluptatum! Dignissimos at ipsum minus cupiditate quos voluptate quam
+                    voluptates corporis architecto aliquid dolores itaque pariatur repellat doloremque laudantium
+                    reprehenderit minima eum doloribus veritatis ad eius, nostrum esse? Earum nemo quae inventore
+                    dolorum odit. Iusto blanditiis esse ut! Eligendi praesentium aliquid pariatur quod nisi quia ratione
+                    nobis recusandae ut commodi consequuntur corrupti minus molestiae rerum enim culpa, natus quo
+                    incidunt nostrum dolorem sunt mollitia ea? Tempore quos eum eligendi. Nemo natus officiis veritatis
+                    placeat reiciendis consectetur. Deleniti, mollitia cum, veritatis similique architecto ex commodi
+                    nisi eveniet quis nihil excepturi fugiat corporis quibusdam illo animi, enim reiciendis
+                    reprehenderit sequi provident suscipit aperiam quisquam sint facilis! Molestias consequatur commodi
+                    fuga provident est accusamus, harum, consectetur totam minus tenetur, placeat deleniti temporibus.
+                    Explicabo quis nemo similique dolor cupiditate, nihil itaque repellat enim, nesciunt inventore ad
+                    aliquam autem voluptatem at magnam! Nobis mollitia placeat sapiente veritatis repellat eius, ab,
+                    fugiat nihil nisi obcaecati nemo dolorem cupiditate! Ullam sint minus reprehenderit quae!</p>
+            </div>
+        </section> -->
+    </main>
 
     <!-- footer start -->
-    <footer id="footer" style="text-align: center;">
+    <!-- <footer id="footer" style="text-align: center;">
         <div class="wrapper">
             <hr>
             <p>Copyright &copy; <span id="year"></span> Balckbox Media</p>
         </div>
-    </footer>
+    </footer> -->
     <!--/. footer end -->
 
     <!-- Optional JavaScript -->
