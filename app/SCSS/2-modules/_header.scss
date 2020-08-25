@@ -1,0 +1,57 @@
+/* Header start */
+.header {
+
+    nav {
+        padding: 1.0625rem 1.5rem;
+        box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
+    }
+
+    &__logo {
+
+        // Brand logo
+        img {
+            width: 100%;
+        }
+    }
+
+    &__hamburger {
+        //Mobile menu
+
+        >span {
+            display: block;
+            width: 26px;
+            height: 2px;
+            background-color: $darkBlue;
+
+            &:not(:last-child) {
+                margin-bottom: 3px;
+            }
+        }
+    }
+
+    &__menu {
+        a {
+            font-size: $font-sm;
+            font-weight: 700;
+            color: $grayishBlue;
+            transition: color 200ms ease-in-out;
+
+            &:not(:last-child) {
+                margin-right: 32px;
+            }
+
+            &:hover {
+                color: $darkBlue;
+                padding-bottom: 28px;
+                border-bottom: 5px solid $limeGreen;
+            }
+        }
+    }
+
+    &__btn {
+        font-weight: 700;
+        color: $white !important;
+    }
+}
+
+/* Header ends */

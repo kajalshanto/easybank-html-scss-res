@@ -13,7 +13,7 @@
     <!--!! Favicon  !!-->
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
     <!--!! Site Title  !!-->
-    <title>Document</title>
+    <title>Easybank-responsive | SCSS | HTML</title>
 
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,700;1,400&display=swap"
@@ -26,16 +26,26 @@
     <!-- Header start -->
     <header class="header">
         <div class="wrapper">
-            <nav class="flex">
+            <nav class="flex flex-jc-sb flex-ai-c">
                 <a href="/" class="header__logo">
                     <img src="./images/logo.svg" alt="Easybank">
                 </a>
 
-                <a href="#" class="header__hamburger">
+                <a href="#" class="header__hamburger hide_in_desktop">
                     <span></span>
                     <span></span>
                     <span></span>
                 </a>
+
+                <div class="header__menu hide_in_mobile">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Careers</a>
+                </div>
+
+                <a href="#" class="btn_custom header__btn hide_in_mobile">Request Invite</a>
             </nav>
         </div>
     </header>

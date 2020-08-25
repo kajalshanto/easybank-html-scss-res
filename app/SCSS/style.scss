@@ -1,7 +1,11 @@
 // Base SCSS
 @import './1-helpers/variables';
 @import './1-helpers/typography';
+@import './2-modules/mixins';
 @import './1-helpers/globals';
+@import './1-helpers/visibility';
+
 
 // Modules SCSS
-@import './2-modules/header'
+@import './2-modules/buttons';
+@import './2-modules/header';
