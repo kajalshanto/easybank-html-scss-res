@@ -38,6 +38,16 @@ ul li {
     list-style: none;
 }
 
+h1,
+h2,
+h3 {
+    margin-top: 0;
+}
+
+p {
+    line-height: 1.5;
+}
+
 .tac {
     text-align: center;
 }
@@ -48,6 +58,11 @@ ul li {
 .wrapper {
     padding-left: 1.5rem;
     padding-right: 1.5em;
+}
+
+.div-padding {
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 /* Flexbox */

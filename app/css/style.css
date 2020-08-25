@@ -38,6 +38,16 @@ ul li {
   list-style: none;
 }
 
+h1,
+h2,
+h3 {
+  margin-top: 0;
+}
+
+p {
+  line-height: 1.5;
+}
+
 .tac {
   text-align: center;
 }
@@ -47,6 +57,11 @@ ul li {
 .wrapper {
   padding-left: 1.5rem;
   padding-right: 1.5em;
+}
+
+.div-padding {
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 
 /* Flexbox */
@@ -241,3 +256,42 @@ ul li {
 }
 
 /* Header ends */
+.hero__image {
+  position: relative;
+  background-image: url("/images/bg-intro-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 17.5rem;
+}
+
+.hero__image::before {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url("/images/image-mockups.png");
+  background-repeat: no-repeat;
+  background-size: 93%;
+  background-position: center bottom;
+}
+
+.hero__text {
+  text-align: center;
+}
+
+.hero__text h1 {
+  font-size: 2.3125rem;
+  font-weight: 300;
+  color: #2d314d;
+  line-height: 1.15;
+  margin-bottom: 1.5rem;
+}
+
+.hero__text p {
+  margin-bottom: 2.25rem;
+}
+
+.hero__text .btn_custom {
+  display: inline-block;
+}
